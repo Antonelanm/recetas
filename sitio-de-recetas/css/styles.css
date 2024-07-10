@@ -1,0 +1,40 @@
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.banner-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-transparent:hover {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+.card {
+    height: 350px; /* Altura fija para todas las cards */
+}
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Ajusta la altura según lo necesites */
+}
+
